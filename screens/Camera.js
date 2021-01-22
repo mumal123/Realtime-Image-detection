@@ -32,7 +32,7 @@ export default class PickImage extends React.Component {
         alert("Sorry, we need camera roll permissions to make this work!");
       }
     }
-  };
+  }
 
   uploadImage = async (uri) => {
     const data = new FormData();
